@@ -1,0 +1,86 @@
+body {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.container > div.row {
+	padding-top: 35px;
+	text-align: center;
+}
+
+ul.sidebar-nav li{
+	color:red;
+}
+
+.glyphicon.glyphicon-plus,
+.glyphicon.glyphicon-minus {
+	cursor: pointer;
+}
+
+.panel-body .panel-display{
+	display: none;
+}
+
+.list-partido input{
+	width: 30px;
+}
+
+.partido{
+	min-height: 85px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.partido input{
+	text-align: center;
+}
+
+.partido .save-btn input{
+	margin-top:	10px;
+	width: 80%;
+}
+
+img.flag {
+	width: 28px;
+}
+
+.partido .team{
+	margin-top: 10px;
+}
+
+.partido .result{
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.modal-body{
+	
+padding-right: 40px !important;
+}
+
+.partido-admin{
+	min-height: 215px;
+}
+
+.error{
+	color: #a94442;
+	margin-bottom: 20px;
+}
+
+.encerts{
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.logos{
+	margin-left: 30px;
+	line-height: 50px;
+}
+
+.italic{
+	font-style: italic;
+}
+
+td, th{
+	text-align: center;
+}
