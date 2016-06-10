@@ -19,6 +19,9 @@
 			    		</div>
 			    		<?php } ?>
 			    		<input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
+			    		<div class="form-group" style="margin-top: 10px;font-size: 12px;font-style: italic;">
+			    		    <div>To login you should use your username, not your email.</div>
+			    		</div>
 			    	</fieldset>
 		      	</form>
 		    </div>

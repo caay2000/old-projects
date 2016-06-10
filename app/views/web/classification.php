@@ -72,7 +72,7 @@
 												<img class="flag" src="<?php echo MEDIA_PATH."/images/flag/".strtolower($p->partido->team1->code);?>.png" alt="<?php echo $team1->code;?>"/>
 											</div>
 											<div class="col-xs-4">
-												<span class="team"><?php echo $p->partido->team1->code;?></span>	
+												<span class="team"><?php echo $p->partido->team1->name;?></span>	
 											</div>
 											<div class="col-xs-2">
 												<span><?php echo $p->result1; ?></span>	
@@ -89,7 +89,7 @@
 												<img class="flag" src="<?php echo MEDIA_PATH."/images/flag/".strtolower($p->partido->team2->code);?>.png" alt="<?php echo $team2->code;?>"/>	
 											</div>
 											<div class="col-xs-4">
-												<span class="team"><?php echo $p->partido->team2->code;?></span>	
+												<span class="team"><?php echo $p->partido->team2->name;?></span>	
 											</div>
 											<div class="col-xs-2">
 												<span><?php echo $p->result2; ?></span>

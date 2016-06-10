@@ -24,24 +24,24 @@
                     <div class="col-xs-12">
                       <div class="form-group">
                         <div class="row">
-                          <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                          <div class="col-xs-12 col-xs-8 col-xs-offset-2">
                             <div class="row">
-                              <div class="col-xs-3 col-sm-1">
+                              <div class="col-xs-3 col-xs-1">
                                 <img class="flag" src="<?php echo MEDIA_PATH."/images/flag/".strtolower($team1->code);?>.png" alt="<?php echo $team1->name;?>"/>
                               </div>
-                              <div class="col-xs-6 col-sm-4">
+                              <div class="col-xs-6 col-xs-4">
                                 <span class="team"><?php echo $team1->name;?></span>  
                               </div>
-                              <div class="col-xs-3 col-sm-1">
+                              <div class="col-xs-3 col-xs-1">
                                 <input name="p<?php echo $partido->id; ?>.result1" type="text" required pattern="^\d+$" maxlength="2" value="<?php echo $user->getPronostic($partido->id)->result1; ?>">
                               </div>
-                              <div class="col-xs-push-9 col-xs-3 col-sm-push-0 col-sm-1">
+                              <div class="col-xs-push-9 col-xs-3 col-xs-push-0 col-xs-1">
                                 <input name="p<?php echo $partido->id; ?>.result2" type="text" required pattern="^\d+$" maxlength="2" value="<?php echo $user->getPronostic($partido->id)->result2; ?>">  
                               </div>
-                              <div class="col-xs-6 col-sm-4">
+                              <div class="col-xs-6 col-xs-4">
                                 <span class="team"><?php echo $team2->name;?></span>  
                               </div>
-                              <div class="col-xs-pull-9 col-xs-3 col-sm-push-0 col-sm-1">
+                              <div class="col-xs-pull-9 col-xs-3 col-xs-push-0 col-xs-1">
                                 <img class="flag" src="<?php echo MEDIA_PATH."/images/flag/".strtolower($team2->code);?>.png" alt="<?php echo $team2->name;?>"/>  
                               </div>                            
                             </div>  

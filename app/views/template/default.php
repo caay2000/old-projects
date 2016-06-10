@@ -26,7 +26,7 @@
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
 	          </button>
-	          <a class="navbar-brand" href="<?php echo PAGE_ROOT; ?>/">Comet GC - Brazil 2014</a>
+	          <a class="navbar-brand" href="<?php echo PAGE_ROOT; ?>/">Comet GC - France 2016</a>
 	        </div>
 	        <div class="collapse navbar-collapse">
 	          <ul class="nav navbar-nav">
@@ -45,9 +45,12 @@
 	            	<li><a href="<?php echo PAGE_ROOT; ?>/logout">Logout</a></li>
 				<?php } ?>
 	          </ul>
+	          <?php /* 
 	        	<div class="pull-right logos hidden-sm">
 	        		<a href="http://www.kiwibcn.com/" target="_blank"><img src="<?php echo MEDIA_PATH; ?>/images/logokiwi2-inv.png"/></a>
 	        	</div>
+	        	*/
+	        	?>
 	          	<div class="pull-right logos hidden-sm">
 	          		<a href="http://www.cometgc.com/" target="_blank"><img src="<?php echo MEDIA_PATH; ?>/images/logocometgc.png"/></a>
 	          	</div>

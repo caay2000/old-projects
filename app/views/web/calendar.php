@@ -3,7 +3,7 @@
 		 <span><b>All the times are in local time.</b></span>
 	</div>
 	<div class="col-xs-12">
-		<span>You can check your time in <a href="http://www.fifa.com/worldcup/matches/" target="_blank">FIFA Official Site</a></span>
+		<span>You can check your time in <a href="http://www.uefa.com/uefaeuro/index.html" target="_blank">UEFA Official Site</a></span>
 	</div>
 </div>
 

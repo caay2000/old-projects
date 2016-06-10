@@ -15,7 +15,7 @@
     }
     
     function register(){
-      if (new DateTime() > date_create_from_format('d-m-Y H:i', '11-6-2014 12:00')){
+      if (new DateTime() > date_create_from_format('d-m-Y H:i', DATE_EXPIRE)){
         return new View("redirect:index?expired");
       }
       $view = new View('register');
@@ -118,7 +118,7 @@
     
     function user(){
     	if(!isset($_SESSION['user'])) return new View('login');
-    	if (new DateTime() > date_create_from_format('d-m-Y H:i', '11-6-2014 12:00')){
+    	if (new DateTime() > date_create_from_format('d-m-Y H:i', DATE_EXPIRE)){
     		return new View("redirect:index?expired");
     	}
     	$view = new View('user');

@@ -30,6 +30,7 @@
 	define('DB_HOST', 'localhost');
 	define('DB_USER', 'root');
 	define('DB_PASS', '');
-	define('DB_NAME', 'brazil2014');
+	define('DB_NAME', 'france2016');
 	
 	define('DATE_FORMAT', 'd-m-Y');
+	define('DATE_EXPIRE', '10-6-2016 14:00');
