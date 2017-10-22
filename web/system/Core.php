@@ -30,8 +30,8 @@
 		}
 		
 		private static function parseURL($controller){
-			//funció recursiva per a parsejar correctament la url
-			//exemple d'execució  PATH   CONT   METO   QUER
+			//funci? recursiva per a parsejar correctament la url
+			//exemple d'execuci?  PATH   CONT   METO   QUER
 			//					  a/b/   Def    Def     -
 			//					   a/     b     Def     -
 			//					   -      a      b      -
