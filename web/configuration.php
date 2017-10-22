@@ -25,12 +25,8 @@ define('DEFAULT_TEMPLATE', 'default');
 define('DEFAULT_LOCALE', 'es');
 
 define('DB_ACTIVE', FALSE);
-define('DB_DRIVER', 'pdo_mysql');
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', '');
 
 define('MAX_UPLOAD_SIZE', 2000000);
 
-define('MAIL_TO', 'm.mulero@apabcn.cat');
+//define('MAIL_TO', 'm.mulero@apabcn.cat');
+define('MAIL_TO', 'caay2000@gmail.com');
