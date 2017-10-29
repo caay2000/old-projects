@@ -32,33 +32,33 @@
 			if(isset($_GET['page'])) $page = $_GET['page'];
 			
 			//creamos el dao
-			$dao = new DAO();
+			//$dao = new DAO();
 			//cogemos las actualidades, dependiendo de la pagina
-			$actualidades = $dao->getActualidadesByPage($page, $this->noticias_x_page);
+			//$actualidades = $dao->getActualidadesByPage($page, $this->noticias_x_page);
 			
-			$total = $dao->getTotalActualidades();
-			$num_pages = ceil($total / $this->noticias_x_page);
+			//$total = $dao->getTotalActualidades();
+			//$num_pages = ceil($total / $this->noticias_x_page);
 			
 			//añadimos actualidades a la vista
 			$view = new View('actualidades');
 			$view->addTemplate('page', 'actualidades');
-			$view->add("actualidades", $actualidades);
-			$view->add("num_paginas", $num_pages);
+			$view->add("actualidades", array());
+			$view->add("num_paginas", 1);
 			//mostramos vista
 			return $view;
 		}
 		
 		function enlaces(){
 			//busco en la BD todos los enlaces
-			$dao = new DAO();
-			$enlaces = $dao->getEnlaces();
+//			$dao = new DAO();
+//			$enlaces = $dao->getEnlaces();
 			
 			//creo la vista
 			$view = new View('enlaces');
 			$view->addTemplate('page', 'enlaces');
 			
 			//añado los enlaces para utilizar en la vista
-			$view->add("links", $enlaces);
+			$view->add("links", array());
 			
 			//devuelvo la vista
 			return $view;
