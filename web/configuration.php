@@ -1,5 +1,5 @@
 <?php
-	define('PAGE_ROOT', '/');
+	define('PAGE_ROOT', '');
 	define('SERVER_ROOT', __DIR__);
 	
 	define('DEV_MODE', true);

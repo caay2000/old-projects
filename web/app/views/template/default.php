@@ -117,13 +117,13 @@
 									<span><?php __("direccio_1"); ?>, <?php __("direccio_2"); ?></span>
 								</div>
 								<div class="col-md-2">
-									<span class="glyphicon glyphicon-cog"></span>
-									<?php 
-										if(isset($_SESSION['admin']) && $_SESSION['admin'] == true){ ?>
-											<a href="<?php echo PAGE_ROOT;?>/logout"><?php __("logout");?></a>
-									<?php } else{ ?>
-											<a href="<?php echo PAGE_ROOT;?>/login"><?php __("login");?></a>
-									<?php }?>
+<!--									<span class="glyphicon glyphicon-cog"></span>-->
+<!--									--><?php //
+//										if(isset($_SESSION['admin']) && $_SESSION['admin'] == true){ ?>
+<!--											<a href="--><?php //echo PAGE_ROOT;?><!--/logout">--><?php //__("logout");?><!--</a>-->
+<!--									--><?php //} else{ ?>
+<!--											<a href="--><?php //echo PAGE_ROOT;?><!--/login">--><?php //__("login");?><!--</a>-->
+<!--									--><?php //}?>
 								</div>
 							</div>
 						</div>
