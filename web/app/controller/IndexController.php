@@ -39,10 +39,10 @@
 			//$total = $dao->getTotalActualidades();
 			//$num_pages = ceil($total / $this->noticias_x_page);
 
-            $actualidades = array('id' => 1,
+            $actualidades = array(array('id' => 1,
                 'titol' => Locales::__getKey('actualitat_1_titol'),
                 'date'=> Locales::__getKey('actualitat_1_date'),
-                'text'=> Locales::__getKey('actualitat_1'));
+                'text'=> Locales::__getKey('actualitat_1')));
 
             print_r($actualidades);
 
