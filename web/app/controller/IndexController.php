@@ -38,11 +38,17 @@
 			
 			//$total = $dao->getTotalActualidades();
 			//$num_pages = ceil($total / $this->noticias_x_page);
-			
+
+            $actualidades = array();
+            $actualidades('titol', Locales::__getKey('actualitat_1_titol'));
+            $actualidades('date', Locales::__getKey('actualitat_1_date'));
+            $actualidades('text', Locales::__getKey('actualitat_1'));
+
+
 			//añadimos actualidades a la vista
 			$view = new View('actualidades');
 			$view->addTemplate('page', 'actualidades');
-			$view->add("actualidades", array());
+			$view->add("actualidades", $actualidades);
 			$view->add("num_paginas", 1);
 			//mostramos vista
 			return $view;

@@ -195,3 +195,7 @@ $dicc['texto_info']					= "Texto informativo";
 $dicc['fecha']						= "Fecha";
 $dicc['pdf']						= "PDF";
 $dicc['nom_complet']				= "Nombre completo";
+
+$dicc['actualitat_1']               = "MIR-MOLINA Advocats somos un bufete de abogados de carácter multidisciplinar dedicándose al asesoramiento y defensa Jurídica Integral de empresas y particulares, creado en junio de 2005, con gran vinculación e implantación en la zona del Baix Llobregat, y muy vinculado con el Ilustre Colegio de Abogados de Sant Feliu de Llobregat.";
+$dicc['actualitat_1_titol']         = "LA FIRMA";
+$dicc['actualitat_1_date']          = "19/05/2013";
