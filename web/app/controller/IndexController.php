@@ -44,6 +44,8 @@
                 'date'=> Locales::__getKey('actualitat_1_date'),
                 'text'=> Locales::__getKey('actualitat_1'));
 
+            print_r($actualidades);
+
 			//añadimos actualidades a la vista
 			$view = new View('actualidades');
 			$view->addTemplate('page', 'actualidades');
