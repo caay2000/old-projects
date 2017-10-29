@@ -40,6 +40,7 @@
 			//$num_pages = ceil($total / $this->noticias_x_page);
 
             $actualidades = array();
+            $actualidades('id', 1);
             $actualidades('titol', Locales::__getKey('actualitat_1_titol'));
             $actualidades('date', Locales::__getKey('actualitat_1_date'));
             $actualidades('text', Locales::__getKey('actualitat_1'));
