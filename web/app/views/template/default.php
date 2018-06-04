@@ -128,7 +128,6 @@
 			                    <div class="span3 final">
 			                        <a href="<?php echo PAGE_ROOT; ?>/"><img src="<?php echo MEDIA_PATH; ?>/images/logo_text_130x130.png" alt="logo" width="130" height="130"/></a><br>
 			                        <p><?php __('mail_contact_1'); ?><img class="arroba" src="<?php echo MEDIA_PATH; ?>/images/arroba.png" alt="arroba" width="14" height="14"/><?php __('mail_contact_2'); ?></p>
-			                        <p><?php __('kiwibcn_telf'); ?></p>
 			                    </div>
 					            
 					            

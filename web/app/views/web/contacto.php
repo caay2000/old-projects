@@ -71,78 +71,7 @@
 			            <p><?php __('contacto_box2_p1');?></p>
 			            <span class="big"><?php __('mail_contact_1'); ?><img class="arroba" src="<?php echo MEDIA_PATH; ?>/images/arroba_orange.png" alt="arroba"/><?php __('mail_contact_2'); ?></span>
 			            <p><?php __('contacto_box2_p2');?></p>
-			            <div class="clearDos"></div>  
-			            	<form class="clase_form form-inline" id="contacto1" action="<?php echo PAGE_ROOT;?>/contactomail" method="post">
-                        		<div class="row-fluid">
-                        			<div class="span3">	
-				            			<label for="nomform"><?php __('contacto_box2_label1'); ?></label>
-				            		</div>
-									<div class="span9">
-				            			<input type="text" name="nom" id="nomform"/>
-				            		</div>
-			            		</div>
-			            	
-                        		<div class="row-fluid">
-                        			<div class="span3">
-				            			<label for="emailform"><?php __('contacto_box2_label2'); ?></label>
-				            		</div>
-									<div class="span9">
-				            			<input type="text" name="email" id="emailform"/>
-				            		</div>
-			            		</div>
-	            			
-							
-								<div class="row-fluid">
-	                        		<div class="span4">
-				            			<label for="copiaform" class="copiaform"><?php __('contacto_box2_label3'); ?></label>
-				            		</div>
-									<div class="span2 check">
-				            			<input type="checkbox" name="copia" id="copiaform" />
-		            				</div>
-	            				</div>
-	            			
-	            				<div class="row-fluid">
-                        			<div class="span12">
-	            						<textarea name="mesage"><?php __('contacto_box2_label4'); ?></textarea>
-	            					</div>
-	            				</div>
-			            		
-			            		
-			            		<div class="row-fluid">
-		                        	<div class="span12">
-			            				<input id="envio1" type="submit" value="<?php __('envio_info'); ?>"/>
-			            			</div>
-			            		</div>
-			            	</form>
-			            	<div class="clearDos"></div>
-			            	<div class="clearDos"></div>         
-			
-			            <p><?php __('contacto_box3_p1');?></p>
-			            <span class="big"><?php __('kiwibcn_telf');?></span>
-			            <p><?php __('contacto_box3_p2');?></p>
-			            <div class="clearDos"></div>  
-			            	<form class="clase_form form-inline" id="contacto2" action="<?php echo PAGE_ROOT;?>/contactotelf" method="post">
-	                        	<div class="row-fluid">
-	                        		<div class="span3">
-										<label for="nom"><?php __('contacto_box3_label1'); ?></label>
-									</div>
-									<div class="span9">
-										<input type="text" name="nom"/>
-									</div>
-								</div>
-								<div class="row-fluid">
-									<div class="span3">
-										<label for="telf"><?php __('contacto_box3_label2'); ?></label>
-									</div>
-									<div class="span9">
-										<input type="text" name="telf"/>
-									</div>
-								</div>
-								<input id="envio2" type="submit" value="<?php __('envio_info'); ?>"/>
-			            	</form>
-			            	
-			            	<div class="clear"></div>
-						
+			            <div class="clearDos"></div>
 					</div>
 					
 				</div>

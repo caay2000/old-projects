@@ -170,44 +170,18 @@
 			<div class="span12">
 				<div class="row-fluid">
 				
-					<div class="span4 servicio">
+					<div class="span6 servicio">
 						<h4><?php __('index_quick1_h1'); ?></h4>
 						<img src="<?php echo MEDIA_PATH; ?>/images/manos.png" alt="foto" width="253" height="100" />
 						<p><?php __('index_quick1_p'); ?></p>
 					</div>
 					
-					<div class="span4 servicio">
+					<div class="span6 servicio no">
 						<h4><?php __('index_quick2_h1'); ?></h4>
 						<img src="<?php echo MEDIA_PATH; ?>/images/publicita2.png" alt="foto" width="253" height="100" />
 						<p><?php __('index_quick2_p'); ?></p>
 					</div>
-					
-					<div class="span4 servicio no">
-						<h4><?php __('index_quick3_h1'); ?></h4>
-						<span><?php __('index_quick3_p1'); ?><a href="<?php echo PAGE_ROOT; ?>/contacto"><?php __('index_quick3_a'); ?></a></span>
-						<span><?php __('index_quick3_p2'); ?></span>
-						<form action="<?php echo PAGE_ROOT;?>/indextelf" method="post" class="clase_form">
-							<div class="row-fluid">
-								<div class="span3">
-									<label for="form_nom"><?php __('index_quick3_label1'); ?></label>
-								</div>
-								<div class="span9">
-									<input type="text" name="nom" id="form_nom"/>
-								</div>
-							</div>
-							<div class="row-fluid">
-								<div class="span3">
-									<label for="form_telf"><?php __('index_quick3_label2'); ?></label>
-								</div>
-								<div class="span9">
-									<input type="text" name="telf" id="form_telf"/>
-								</div>
-							</div>
-							<input class="envio" type="submit" value="<?php __('envio_info'); ?>"/>
-							
-						</form>
-						
-					</div>
+
 				</div>
 			</div>
 		</div>

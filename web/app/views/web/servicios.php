@@ -93,33 +93,6 @@
                         </ul>
                         <p><?php __('servicio_box1_p3'); ?><span><?php __('servicio_box1_span'); ?></span><?php __('servicio_box1_p4'); ?></p>
                         <p><?php __('servicio_box1_p5'); ?></p>
-                        <div class="row-fluid escondido">
-                        	<div class="clearTres"></div>
-                        	<div class="span12" style="margin-left: 0;">
-	                        	<form action="<?php echo PAGE_ROOT;?>/serviciosmail" method="post">
-	                        		<div class="row-fluid">
-		                        		<div class="span6">
-		                        			<label for="nom"><?php __('servicio_box0_label1'); ?></label>
-		                        			<input type="text" name="nom"/>
-		                        		</div>
-		                        		<div class="span6">
-		                        			<label for="email"><?php __('servicio_box0_label2'); ?></label>
-		                        			<input type="text" name="email"/>
-		                        		</div>
-	                        		</div>
-	                        		<div class="row-fluid info">
-		                        		<div class="span12">
-			                        		<label class="info" for="info"><?php __('servicio_box0_label3'); ?></label>
-			                        		<input class="info" type="checkbox" name="info"/>
-			                        		<input type="hidden" name="servei" value="web">
-	                        			</div>
-	                        		</div>
-	                        	</form>
-                        	</div>
-                        	<div class="clearTres"></div>
-                        </div>
-                        <button class="leermas"><?php __('pedir_info'); ?></button>
-                        <button class="escondido envio"><?php __('envio_info'); ?></button>
                     </div>
                  </div>
              </div>
@@ -159,34 +132,7 @@
                         <p><?php __('servicio_box2_p4'); ?><span><?php __('servicio_box2_span2'); ?></span><?php __('servicio_box2_p5'); ?></p>
                         <h3><?php __('servicio_box2_h3'); ?></h3>
                         <p><?php __('servicio_box2_p6'); ?></p>
-                        
-                        <div class="row-fluid escondido">
-                        	<div class="clearTres"></div>
-                        	<div class="span12" style="margin-left: 0;">
-	                        	<form action="<?php echo PAGE_ROOT;?>/serviciosmail" method="post">
-	                        		<div class="row-fluid">
-		                        		<div class="span6">
-			                        		<label for="nom"><?php __('servicio_box0_label1'); ?></label>
-			                        		<input type="text" name="nom"/>
-			                        	</div>
-		                        		<div class="span6">
-			                        		<label for="email"><?php __('servicio_box0_label2'); ?></label>
-			                        		<input type="text" name="email"/>
-			                        	</div>
-		                        	</div>
-		                        	<div class="row-fluid info">
-		                        		<div class="span12">
-			                        		<label for="info" class="info"><?php __('servicio_box0_label3'); ?></label>
-			                        		<input class="info" type="checkbox" name="info"/>
-			                        		<input type="hidden" name="servei" value="web_plus">
-			                        	</div>
-			                        </div>
-	                        	</form>
-	                        </div>
-                        	<div class="clearTres"></div>
-                        </div>
-                        <button class="leermas"><?php __('pedir_info'); ?></button>
-                        <button class="escondido envio"><?php __('envio_info'); ?></button>
+
                    </div>
             	</div> 
             </div>    
@@ -226,33 +172,6 @@
                         <p><?php __('servicio_box3_p4'); ?><span><?php __('servicio_box3_span2'); ?></span><?php __('servicio_box3_p5'); ?></p>
                         <p><?php __('servicio_box3_p6'); ?></p>
 
-                        <div class="row-fluid escondido">
-                        	<div class="clearTres"></div>
-                        	<div class="span12" style="margin-left: 0;">
-	                        	<form action="<?php echo PAGE_ROOT;?>/serviciosmail" method="post">
-	                        		<div class="row-fluid">
-		                        		<div class="span6">
-			                        		<label for="nom"><?php __('servicio_box0_label1'); ?></label>
-			                        		<input type="text" name="nom"/>
-		                        		</div>
-		                        		<div class="span6">
-			                        		<label for="email"><?php __('servicio_box0_label2'); ?></label>
-			                        		<input type="text" name="email"/>
-			                        	</div>
-		                        	</div>
-		                        	<div class="row-fluid info">
-		                        		<div class="span12">
-			                        		<label for="info" class="info"><?php __('servicio_box0_label3'); ?></label>
-			                        		<input class="info" type="checkbox" name="info"/>
-			                        		<input type="hidden" name="servei" value="altres_serveis">
-			                        	</div>
-			                        </div>
-	                        	</form>
-	                        </div>
-                        	<div class="clearTres"></div>
-                        </div>
-                        <button class="leermas"><?php __('pedir_info'); ?></button>
-                        <button class="escondido envio"><?php __('envio_info'); ?></button>
                     </div>
                 </div>
         	</div>    
