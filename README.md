@@ -1,1 +1,1 @@
-# WordCupChallenge
+# WorldCupChallenge
