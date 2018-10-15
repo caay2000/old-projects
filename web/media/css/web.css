@@ -1,0 +1,369 @@
+@CHARSET "UTF-8";
+
+
+
+/* GENERAL */
+
+body{ 
+	padding: 0;
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #CB9004;
+	line-height: 1.7;
+}
+
+.hidden{ display: none; }
+
+.clear{
+	clear: both;
+	height: 20px;
+}
+
+.clearDos{
+	clear: both;
+	height: 180px;
+}
+
+.clearTres{
+	clear: both;
+	height: 10px;
+}
+
+.bold{ font-weight: bold; }
+
+
+/* TEMPLATE DEFAULT */
+
+div.cabecera, div.contenido, div.pie{ 
+	background-color: #F5F5DC; 
+	max-width: 960px;
+	margin: 0 auto;
+
+	margin-top: 20px;
+	-webkit-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.15);
+	box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.15);
+}
+
+div.cabecera{ margin-top: 0; }
+
+.degradado {
+  /* fallback */
+  background-color: #F5F5DC;
+  background-image: url(images/linear_bg_1.png);
+  background-repeat: repeat-x;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 100% 0% 0%, 0%, from(#F5F5DC), to(#a57503));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #F5F5DC, #a57503);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #F5F5DC, #a57503);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #F5F5DC, #a57503);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#F5F5DC', EndColorStr='#a57503')"; /* IE8 */
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#F5F5DC', EndColorStr='#a57503'); /* IE6,IE7 */
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #F5F5DC, #a57503);
+}
+
+#logo{ margin: 30px 0;}
+
+.spaciado_banderas{
+	margin-left: 10px; 
+	float: right; 
+}
+
+/* INDEX */
+
+.titolapt{ 
+	margin: 0;
+	font-size: 20px;
+}
+
+.linea{ 
+	border-bottom: 1px dotted #bcbcbc;
+	clear: both;
+	padding-top: 10px;
+}
+
+.columna{ clear: both; }
+
+.columna:hover{
+	cursor: pointer;
+	background: #ffffcc;
+}
+
+.foto{ 
+	padding: 10px;
+	margin-top: 10px;
+	-webkit-box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.15);
+	box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.15);
+}
+
+.buskeda{ padding: 20px 15px 20px 0px; }
+
+.btn_amarillo:hover{ background: none;background-color: #E3B102; color:#FFFFFF; }
+
+.btn_amarillo{
+	cursor:pointer;
+	
+	background-image: none; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+	color: #FFFFFF;
+	background-color: #feda5d;
+	background: url(images/linear_bg_2.png);
+	background-repeat: repeat-x;
+
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#feda5d), to(#E3B102));
+	
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #E3B102, #feda5d);
+	
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #E3B102, #feda5d);
+	
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #E3B102, #feda5d);
+	
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #E3B102, #feda5d);
+}
+
+
+
+div#divoculto label{ font-size: 13px; }
+
+div#divoculto div.inputspan{ margin: 0; }
+
+#filtro_oculto{	opacity:0.6; }
+
+div.input-append.date.fecha{ display: block;}
+
+div.numpersonas label.error{clear: both;}
+
+div.izq{ float: right;}
+div.izq span, div.izq a, div.izq p{ float:right; }
+span.negrita{ 
+	font-weight: bold; 
+	font-size: 25px; 
+	clear: both;
+}
+
+span.pekenita{ clear: both; font-size: 10px; margin-bottom: 20px; }
+
+span.pekenita2{ clear:both; font-size: 15px; }
+
+
+
+/* APARTAMENT */
+
+td.reservat span.ui-state-default{
+	background: #F49B9B 50% 50% repeat-x;
+}
+
+td.entrada a.ui-state-default{
+	background: transparent url('../img/entrada.png') 50% 50% repeat-x;
+}
+
+td.sortida a.ui-state-default{
+	background: transparent url('../img/sortida.png') 50% 50% repeat-x;
+}
+
+.ui-state-disabled.reservat, .ui-widget-content .ui-state-disabled.reservat, .ui-widget-header .ui-state-disabled.reservat{
+	opacity: 1;	
+}
+
+.ui-widget-content .ui-state-default.entrada a, .ui-widget-content .ui-state-default.sortida a{
+	background-color: #F6F6F6;
+}	
+
+.medidasContingut{ padding: 40px; }
+
+.fotos_list img{
+	width: 65px;
+	height: 43px;
+	cursor: pointer;
+}
+
+.fotos_mini{ margin-bottom: 15px; }
+
+span.subr{ text-decoration: underline; }
+
+#frm_contacto_tot{ margin-top: 30px; }
+
+#frm_contacto_tot label.titullabel{
+	font-size: 11px; 
+	min-height:0;
+}
+
+#frm_contacto_tot div.input-append{ margin-bottom: 5px; }
+
+.iframe_contacta{ margin-top: 30px; }
+
+input.index{ 
+	width: 270px;
+	float:left;
+}
+
+textarea.index{ 
+	min-height: 200px; 
+	width: 298px;
+}
+
+.normes li{ list-style:circle; }
+
+#enviar.btn{
+	float: right;
+	margin-top: 20px;
+}
+
+div.derecha{ 
+	margin-left: 20px;
+	background-color: #f1f1cd; 
+}
+
+div.recuadroemail{
+	border: 1px solid #CB9004;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px 1px #999;
+	-webkit-box-shadow: 1px 1px 5px 1px #999;
+  	-moz-box-shadow: 1px 1px 5px 1px #999;
+  	filter: shadow(color=#999999, direction=135, strength=2);
+	padding: 0px 20px 10px 20px;
+}
+
+form.contacte label.error, form#filtro label.error, form.reservaform label.error {
+    color: red;
+    float: left;
+    font-size: 10px;
+}
+
+form.preuform label.error{ 
+	color: red; 
+	font-size: 10px; 
+	display: block; 
+	clear: both; 
+	float: left;
+}
+
+.input-append.reservadiv{ display: block; }
+
+h4.mayuscula{ text-transform: uppercase; }
+
+.tablas h5{ margin-top: 20px; margin-bottom: 10px; }
+
+div.ofertas{ 
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border: 1px solid white; 
+	border-radius: 15px; 
+	opacity: 1;
+	background-color: #FFFFFF;
+}
+span.preus_orienta, span.grupinfo{ font-size: 10px; }
+
+.tablapreus th, .tablapreus td{ text-align: center; }
+
+.table-hover tbody tr:hover>th{ background: none; }
+
+.mas, .menos{ float: left; width: 20px; }
+
+/*aqui  sta lo del usuario de color diferente en apartament */
+div.input-append span.add-on.icono_narnaja{background-color: #E3B102;}
+
+
+
+/* PIE */
+
+div.pie span, div.pie a{ 
+	font-size: 10px; 
+	display: block;
+	text-align: center;
+}
+
+div.pie a{ 
+	color:#CB9004; 
+	cursor:pointer; 
+}
+
+
+
+/* LOGIN */
+
+.formulari h3{ color: grey; font-size: 18px;}
+
+.formulari button{ margin-top: 20px; }
+
+
+
+/* TEMPLATE ADMIN */
+
+#tituladmin{ text-transform: uppercase; font-size: 22px; text-decoration: underline;}
+
+.modificacioform label{font-size: 15px;}
+
+.datasenvio{ float: right; }
+
+.derform div.span12{ margin-left: 0;}
+
+.izqform div.span12 div.span8{ margin-left: 0;}
+
+.row-fluid .reservasAdmin{margin-left: 50px;}
+
+div.hasDatepicker div.ui-datepicker-inline{
+	margin:	0 auto;
+}
+
+table.table td{
+	text-align: center;
+	width: 20%;
+}
+
+table.table input{
+	width: 80%;
+	margin-bottom: 0px;
+}
+
+.preus_div{
+	margin-top: 10px;
+}
+
+h5{
+	margin-bottom: 0px;
+}
+
+.no_reserva{
+	font-style: italic;
+}
+
+div.apt .row-fluid h5.mleft-10, div.apt .row-fluid  div.div_despl{
+	margin-left:	10px;
+}
+
+
+input#from, input#to{ float: left; }
+
+.diventrada label.campo_entra, .diventrada label.campo_sal{ margin: 0; }
+
+.masinfo{ padding: 8px; }
+
+#submit_filtro{ margin: 0; }
+
+#filtro div.fecha label{
+	float:	right;	
+}
+
+#filtro div.fecha input{
+	margin-left: 2.127659574468085%;
+}
+
+table.ui-datepicker-calendar a.ui-state-default,
+table.ui-datepicker-calendar span.ui-state-default {
+	color: #333333;
+}
