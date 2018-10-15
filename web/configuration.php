@@ -25,15 +25,15 @@
 	define('DEFAULT_LOCALE', 'es');
 
 	define('DB_DRIVER', 'pdo_mysql');
-	define('DB_HOST', 'localhost');
-	define('DB_USER', 'root');
-	define('DB_PASS', '');
-	define('DB_NAME', 'aptgroc');
-	
+	define('DB_HOST', getenv('DB_HOST'));
+	define('DB_NAME', getenv('DB_NAME'));
+	define('DB_USER', getenv('DB_USER'));
+	define('DB_PASS', getenv('DB_PASS'));
+
 	define('MAX_NUM_APT', 8);
-	
-	define('USR_ADMIN', "groc");
-	define('PSW_ADMIN', "groc");
-	
-	define('MAIL_INFO', '***');
-	define('MAIL_TO', '***');
+
+	define('USR_ADMIN', getenv('USR_ADMIN'));
+	define('PSW_ADMIN', getenv('PSW_ADMIN'));
+
+	define('MAIL_INFO', getenv('MAIL_INFO'));
+	define('MAIL_TO', getenv('MAIL_TO'));
