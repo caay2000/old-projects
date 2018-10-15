@@ -1,5 +1,5 @@
 <?php
-	define('PAGE_ROOT', '/apt-groc');
+	define('PAGE_ROOT', '');
 	define('SERVER_ROOT', __DIR__);
 	
 	define('DEV_MODE', true);
@@ -28,7 +28,7 @@
 	define('DB_HOST', 'localhost');
 	define('DB_USER', 'root');
 	define('DB_PASS', '');
-	define('DB_NAME', '***');
+	define('DB_NAME', 'aptgroc');
 	
 	define('MAX_NUM_APT', 8);
 	
