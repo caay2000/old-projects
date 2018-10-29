@@ -30,7 +30,7 @@
 					<div class="container-fluid cabeza">
 						<div class="row-fluid">
 							<div class="span5 offset4">							
-								<a href="<?php echo PAGE_ROOT; ?>"><img id="logo" src="<?php echo MEDIA_PATH; ?>/img/logo.png" alt="logo"/></a>
+								<a href="<?php echo "/" ?>"><img id="logo" src="<?php echo MEDIA_PATH; ?>/img/logo.png" alt="logo"/></a>
 							</div>
 							<div class="span3 flota_derecha">
 								<a class="spaciado_banderas" href="?lang=fr"><img src="<?php echo MEDIA_PATH; ?>/img/fr.jpg" alt="fr"/></a>
