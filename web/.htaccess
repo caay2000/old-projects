@@ -1,6 +1,6 @@
 Options All -Indexes -Multiviews
 
-AuthUserFile .htpasswd
+AuthUserFile /app/web/.htpasswd
 AuthType Basic
 AuthName "Restricted Access"
 Require valid-user
