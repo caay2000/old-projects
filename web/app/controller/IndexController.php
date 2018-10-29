@@ -1,7 +1,5 @@
 <?php
 
-	use Doctrine\Tests\Common\Annotations\True;
-
 	class IndexController extends Controller{
 		
 		private $reservaService;
