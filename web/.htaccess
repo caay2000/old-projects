@@ -1,5 +1,10 @@
 Options All -Indexes -Multiviews
 
+AuthUserFile .htpasswd
+AuthType Basic
+AuthName "Restricted Access"
+Require valid-user
+
 # Turn on URL rewriting
 RewriteEngine On
 
