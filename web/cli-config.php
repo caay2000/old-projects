@@ -4,7 +4,7 @@ require_once "configuration.php";
 require_once "system/Core.php";
 
 use Doctrine\ORM\Tools\Setup;
-require_once "vendor/autoload.php";
+require_once __DIR__ .  "../vendor/autoload.php";
 
 spl_autoload_register(array('Core', 'auto_load'));
 
