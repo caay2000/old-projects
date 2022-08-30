@@ -1,0 +1,39 @@
+<?php
+
+	class Locales{
+	
+		static private $dicc;
+	
+		public static function init(){
+			//carreguem el llenguatge adequat
+			$lang = NULL;
+			$server = substr($_SERVER["HTTP_ACCEPT_LANGUAGE"], 0, strpos($_SERVER["HTTP_ACCEPT_LANGUAGE"], ';'));
+			foreach (explode(',', $server) as $lang_poss){
+				if($lang === NULL && self::exists($lang_poss)) $lang = $lang_poss;
+			}
+			if($lang === NULL) $lang = DEFAULT_LOCALE;
+			//si ens canvien l'idioma, mirem si existeix, i si no existeix carreguem el catal�
+			if(isset($_GET['lang'])){
+				if(self::exists($_GET['lang'])) $lang = $_GET['lang'];
+				//si ja tenien un idioma predefinit, el carreguem
+			} elseif(isset($_SESSION['lang'])) $lang = $_SESSION['lang'];
+			$_SESSION['lang'] = $lang;
+			//carreguem el diccionari
+			require_once SERVER_ROOT.LOCALES_PATH . $lang . '.php';
+			self::$dicc = $dicc;
+		}
+		
+		private static function exists($lang){
+			return file_exists(SERVER_ROOT.LOCALES_PATH . $lang . '.php');
+		}
+		
+		public static function __getKey($key){
+			//retornem l'htmlentities de la key pasada
+			return htmlentities(self::$dicc[$key], ENT_COMPAT, "ISO-8859-1");
+		}
+		
+	}
+	
+	function __($key){
+		echo Locales::__getKey($key);
+	}
