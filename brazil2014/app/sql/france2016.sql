@@ -1,0 +1,65 @@
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Albania', 'alb');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('France', 'fra');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Romania', 'rou');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Switzerland', 'sui');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('England', 'eng');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Russia', 'rus');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Slovakia', 'svk');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Wales', 'wal');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Germany', 'ger');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('N. Ireland', 'nir');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Poland', 'pol');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Ukarine', 'ukr');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Croatia', 'cro');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Czech Rep.', 'cze');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Spain', 'esp');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Turkey', 'tur');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Belgium', 'bel');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Italy', 'ita');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Rep. Ireland', 'irl');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Sweden', 'swe');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Austria', 'aut');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Hungary', 'hun');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Iceland', 'isl');
+INSERT INTO `france2016`.`Team` (`name`, `code`) VALUES ('Portugal', 'por');
+
+
+
+
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('1', 'fra', 'rou', '2016-06-10 21:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('2', 'alb', 'sui', '2016-06-11 15:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('3', 'wal', 'svk', '2016-06-11 18:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('4', 'eng', 'rus', '2016-06-11 21:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('5', 'tur', 'cro', '2016-06-12 15:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('6', 'pol', 'nir', '2016-06-12 18:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('7', 'ger', 'ukr', '2016-06-12 21:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('8', 'esp', 'cze', '2016-06-13 15:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('9', 'irl', 'swe', '2016-06-13 18:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('10', 'bel', 'ita', '2016-06-13 21:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('11', 'aut', 'hun', '2016-06-14 18:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('12', 'por', 'isl', '2016-06-14 21:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('13', 'rus', 'svk', '2016-06-15 14:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('14', 'rou', 'sui', '2016-06-15 17:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('15', 'fra', 'alb', '2016-06-15 20:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('16', 'eng', 'wal', '2016-06-16 14:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('17', 'ukr', 'nir', '2016-06-16 17:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('18', 'ger', 'pol', '2016-06-16 20:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('19', 'ita', 'swe', '2016-06-17 14:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('20', 'cze', 'cro', '2016-06-17 17:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('21', 'esp', 'tur', '2016-06-17 20:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('22', 'bel', 'irl', '2016-06-18 14:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('23', 'isl', 'hun', '2016-06-18 17:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('24', 'por', 'aut', '2016-06-18 20:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('25', 'sui', 'fra', '2016-06-19 20:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('26', 'rou', 'alb', '2016-06-19 20:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('27', 'svk', 'eng', '2016-06-20 20:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('28', 'rus', 'wal', '2016-06-20 20:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('29', 'nir', 'ger', '2016-06-21 17:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('30', 'ukr', 'pol', '2016-06-21 17:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('31', 'cro', 'esp', '2016-06-21 20:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('32', 'cze', 'tur', '2016-06-21 20:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('33', 'isl', 'aut', '2016-06-22 17:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('34', 'hun', 'por', '2016-06-22 17:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('35', 'swe', 'bel', '2016-06-22 20:00:00', NULL, NULL);
+INSERT INTO `Partido` (`id`,`team1`,`team2`,`fecha`,`result1`,`result2`) VALUES ('36', 'ita', 'irl', '2016-06-22 20:00:00', NULL, NULL);
+
